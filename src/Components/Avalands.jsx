@@ -1,24 +1,23 @@
 
-import { Listinghomes } from './Listinghomes';
+import { Listinglands } from './Listinglands';
 import { useState } from 'react';
-
 import React from 'react'
 
-export default function Avahomes() {
+export default function Avalands() {
   const [query, setQuery] = useState('');
 
-  // const filterHomes = Listinghomes.filter(home =>
-  //   home.toLowerCase().includes(query.toLowerCase())
-  // );
-
   return (
-    <div>     
+    <div>
+
+<div>     
    <input
+
     type="text"
     placeholder='Search Location or Type of Home . . .'
     className='
+    
     rounded-full 
-     px-5 placeholder:p-2 mx-8 w-[20rem] md:placeholder:px-1
+     px-5 placeholder:p-2 mx-8 w-[20rem]  md:placeholder:px-1
      border-2 h-10 md:flex md:mx-[22rem] md:w-[40rem] 
      '
     value={query}
@@ -29,7 +28,7 @@ export default function Avahomes() {
           <div className="homes px-3 md:grid grid-cols-4 gap-4">
 
             
-            {Listinghomes.filter((home) => {
+            {Listinglands.filter((home) => {
               
             return query.toLowerCase() === ""
             ? home : home.location.toLowerCase().includes(query);
@@ -74,6 +73,6 @@ export default function Avahomes() {
       </div>
     </div>
 
-   
+    </div>
   )
 }

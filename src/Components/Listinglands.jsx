@@ -3,7 +3,7 @@ import man from '../Assets/man.png'
 import lan from '../Assets/lan1.png'
 
 
-export const Listinghomes = [
+export const Listinglands = [
     { 
       id:1,
       image: inn, 
@@ -31,49 +31,8 @@ export const Listinghomes = [
       light: '8 hours light',
       road: 'Fair road'
     },
-
     { 
       id:4,
-      image: lan, 
-      description: 'Get Legitimate Lands & Documents',
-      location:'Two Bed room |  rayfield',
-      security: 'Security',
-      light: '8 hours light',
-      road: 'Fair road'
-    },
-
-    { 
-      id:5,
-      image: lan, 
-      description: 'Get Legitimate Lands & Documents',
-      location:'Two Bed room |  rayfield',
-      security: 'Security',
-      light: '8 hours light',
-      road: 'Fair road'
-    },
-
-    { 
-      id:6,
-      image: lan, 
-      description: 'Get Legitimate Lands & Documents',
-      location:'Two Bed room |  rayfield',
-      security: 'Security',
-      light: '8 hours light',
-      road: 'Fair road'
-    },
-
-    { 
-      id:7,
-      image: lan, 
-      description: 'Get Legitimate Lands & Documents',
-      location:'Two Bed room |  rayfield',
-      security: 'Security',
-      light: '8 hours light',
-      road: 'Fair road'
-    },
-
-    { 
-      id:8,
       image: lan, 
       description: 'Get Legitimate Lands & Documents',
       location:'Two Bed room |  rayfield',

@@ -13,11 +13,13 @@ export default function Avalands() {
    <input
 
     type="text"
-    placeholder='Search Location or Type of Home . . .'
+    placeholder='Search Location or size of lands . . .'
     className='
     
     rounded-full 
-     px-5 placeholder:p-2 mx-8 w-[20rem]  md:placeholder:px-1
+     px-5 placeholder:p-2 mx-8 w-[20rem] 
+     hidden
+     md:placeholder:px-1
      border-2 h-10 md:flex md:mx-[22rem] md:w-[40rem] 
      '
     value={query}

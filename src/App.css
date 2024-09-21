@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-    .caro-img{
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
+
+ul,a.active{
+    color: rgb(0, 0, 0);
+    /* font-weight: 800; */
+}

@@ -3,15 +3,19 @@ import man from '../Assets/man.png'
 import lan from '../Assets/lan1.png'
 
 
-export const Listinghomes = [
+ const Listinghomes = [
     { 
       id:1,
       image: inn, 
-      location:'Two Bed room | Gurratop rayfield',
+      location:'Two Bed room | Gurratop rayfield | 800K',
       description: 'Welcome to Prestige Homes',
       security: 'Security',
-      light: '15 hours light',
-      road: 'Prox main road'
+      light: 'solar',
+      compound: 'gated',
+      water: 'borehole',
+      road: 'Close to the main road',
+      state: 'DISTRESS SALE'
+
     },
     { 
       id:2,
@@ -19,8 +23,11 @@ export const Listinghomes = [
       description: 'Own or Rent a Home with Ease',
       location:'Two Bed room |Ran rayfield',
       security: 'Security',
-      light: '10 hours light',
-      road: 'Good road'
+      light: 'light',
+      water: 'borehole',
+      compound: 'gated',
+      road: 'Good road',
+      //  state: 'RENTED OUT',
     },
     { 
       id:3,
@@ -28,8 +35,12 @@ export const Listinghomes = [
       description: 'Get Legitimate Lands & Documents',
       location:'Two Bed room |  rayfield',
       security: 'Security',
+      water: 'borehole',
+      compound: 'gated',
       light: '8 hours light',
-      road: 'Fair road'
+      road: 'Fair road',
+      state: 'RENTED OUT'
+
     },
 
     { 
@@ -39,7 +50,11 @@ export const Listinghomes = [
       location:'Two Bed room |  rayfield',
       security: 'Security',
       light: '8 hours light',
-      road: 'Fair road'
+      water: 'borehole',
+      compound: 'gated',
+      road: 'Fair road',
+      // state: 'SOLD OUT'
+
     },
 
     { 
@@ -49,7 +64,11 @@ export const Listinghomes = [
       location:'Two Bed room |  rayfield',
       security: 'Security',
       light: '8 hours light',
-      road: 'Fair road'
+      water: 'borehole',
+      compound: 'gated',
+      road: 'Fair road',
+      // state: 'SOLD OUT'
+
     },
 
     { 
@@ -59,26 +78,53 @@ export const Listinghomes = [
       location:'Two Bed room |  rayfield',
       security: 'Security',
       light: '8 hours light',
-      road: 'Fair road'
+      water: 'borehole',
+      compound: 'gated',
+      road: 'Fair road',
+      state: 'SOLD OUT'
+
     },
 
     { 
       id:7,
       image: lan, 
       description: 'Get Legitimate Lands & Documents',
-      location:'Two Bed room |  rayfield',
+      location:'Three Bed room |  rayfield',
       security: 'Security',
       light: '8 hours light',
-      road: 'Fair road'
+      water: 'borehole',
+      compound: 'gated',
+      road: 'Fair road',
+      // state: 'SOLD OUT'
+
     },
 
     { 
       id:8,
       image: lan, 
+      description: 'Get Legitimate Lands & Documents ',
+      location:'Two Bed room |  rayfield | N800K',
+      security: 'Security',
+      light: 'light',
+      water: 'borehole',
+      compound: 'gated',
+      road: 'Fair road',
+      // state: 'SOLD OUT'
+
+    },
+    { 
+      id:9,
+      image: lan, 
       description: 'Get Legitimate Lands & Documents',
       location:'Two Bed room |  rayfield',
       security: 'Security',
-      light: '8 hours light',
-      road: 'Fair road'
+      light: 'light',
+      water: 'borehole',
+      compound: ' No gated',
+      road: 'Fair road',
+      state: 'SOLD OUT'
     }
   ];
+
+
+  export default Listinghomes;

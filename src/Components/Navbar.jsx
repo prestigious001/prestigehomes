@@ -72,13 +72,14 @@ export default function Navbar() {
           <div class="hidden lg:flex space-x-4">
             <a
               href="/"
-              class="font-mono px-4 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
+              class=" font-semibold px-4 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
             >
-              <button class="">CHAT NOW</button>
+              <button class=""> CHAT NOW</button>
             </a>
+            
             <a
               href="/"
-              class=" bg-black px-4 py-2 text-white rounded-md hover:bg-gray-200 hover:text-black"
+              class=" font-semibold bg-black px-4 py-2 text-white rounded-md hover:bg-gray-200 hover:text-black"
             >
               <button class="">INSPECT NOW</button>
             </a>
@@ -117,7 +118,7 @@ export default function Navbar() {
       <div class="flex justify-center mt-4 mb-4 lg:hidden space-x-4">
         <a
           href="/"
-          class="font-mono px-4 py-1 border-gray-400 border-2 rounded-md hover:bg-gray-200"
+          class=" px-4 py-1 border-gray-400 border-2 rounded-md hover:bg-gray-200"
         >
           <button class="">CALL NOW</button>
         </a>

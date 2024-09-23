@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../Assets/logo.png";
 import { NavLink } from "react-router-dom";
+import {FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -12,13 +13,13 @@ export default function Footer() {
         </div>
 
         <div className="email ">
-          <p className=" flex justify-center font-mono">
-            <span className=" font-bold">Contact us via Email: </span>
-              prestigeproperty@gmail.com
+          <p className=" flex justify-center font-semibold ">
+            <span className=" "><FaEnvelope className="mt-2 mr-2"/> </span>
+               prestigeproperty@gmail.com
           </p>
         </div>
 
-        <div className="links">
+        <div className="links mt-4">
           <ul class=" flex justify-center md:flex space-x-4 text-gray-500">
             <NavLink to="/">
               <li class="font-mono font-semibold tracking-wider hover:text-gray-500">
@@ -47,7 +48,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <p className="bg-slate-100 p-2 flex justify-center font-mono">All rights reserved prostigeproperties 2024</p>
+      <p className="bg-slate-100 p-2 flex justify-center">All rights reserved  prestigeproperties 2024</p>
     </div>
   );
 }

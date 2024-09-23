@@ -3,7 +3,7 @@ import Footer from '../Components/Footer'
 
 export default function Serivices() {
   return (
-    <div className="bg-gray-50 py-10 font-mono">
+    <div className="bg-gray-50 py-10 ">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-gray-800 mb-4 ">Our Services</h1>
@@ -15,9 +15,9 @@ export default function Serivices() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Service 1 */}
         <div className="bg-white shadow-lg p-6 rounded-lg">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Buying a Home</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Buying a House</h2>
           <p className="text-gray-600 leading-relaxed">
-            Find your dream home with our expert team guiding you every step of the way. From searching listings to closing the deal, we’ve got you covered.
+            Find your dream house with our expert team guiding you every step of the way. From searching listings to closing the deal, we’ve got you covered.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export default function Serivices() {
 
         {/* Service 3 */}
         <div className="bg-white shadow-lg p-6 rounded-lg">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Renting a Home</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Renting a House</h2>
           <p className="text-gray-600 leading-relaxed">
             Whether you’re looking for a rental or leasing out your property, we offer a range of rental services tailored to your needs.
           </p>

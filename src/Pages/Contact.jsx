@@ -26,7 +26,9 @@ export default function Contact() {
                   id="name"
                   name="name"
                   required
-                  className="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:border-indigo-500"
+                  className="w-full border border-gray-300 p-3
+                
+                  rounded-lg focus:outline-none focus:border-indigo-500"
                   placeholder="Your Full Name"
                 />
               </div>
@@ -59,7 +61,10 @@ export default function Contact() {
               <a href="https://wa.link/vpgifv">
               <button
                 type="submit"
-                className="w-full bg-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-gray-700 transition"
+                className="w-full bg-black text-white font-semibold 
+                py-3 px-6 rounded-lg hover:bg-gray-700 transition
+                hidden
+                "
               >
                 
 
@@ -82,7 +87,8 @@ export default function Contact() {
             </div>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Phone Number:</h3>
-              <p className="text-gray-600">+ 234 (0) 818-700-8592</p>
+              <p className="text-gray-600">+ 234 (0) 810-855-9719</p>
+              <p className="text-gray-600">+ 234 (0) 912-903-6128</p>
             </div>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Email:</h3>
@@ -91,7 +97,7 @@ export default function Contact() {
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Working Hours:</h3>
               <p className="text-gray-600">Mon - Sat: 9:00 AM - 6:00 PM</p>
-              <p className="text-gray-600">Sun:  Closed</p>
+              <p className="text-gray-600">Sun:  10am - 6:00 PM</p>
             </div>
           </div>
         </div>

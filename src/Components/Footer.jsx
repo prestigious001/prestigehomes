@@ -48,7 +48,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <p className="bg-slate-100 p-2 flex justify-center">All rights reserved  prestigeproperties 2024</p>
+      <p className="bg-slate-100 p-2 flex justify-center">all rights reserved prestigeproperties © 2024</p>
     </div>
   );
 }

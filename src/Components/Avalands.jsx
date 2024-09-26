@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import  Listinglands  from "./Listinglands";
 import { FaBuilding, FaFile, FaRoad } from "react-icons/fa";
 
-const Newhomes = () => {
+const Newlands = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1); // Track the current page
   const itemsPerPage = 4; // Define how many items you want per page
@@ -152,7 +152,7 @@ const Newhomes = () => {
               >
                 <button className="lg:mt-2 ">
                   <a
-                    href="/"
+                    href="https://wa.link/c4pgr9"
                     className="border-2 text-black py-2 px-6 rounded-md lg:mt-8 hover:bg-gray-100 lg:mr-4"
                   >
                     Know more
@@ -161,7 +161,7 @@ const Newhomes = () => {
 
                 <button className=" ">
                   <a
-                    href="/"
+                    href="https://wa.link/vpgifv"
                     className="bg-black text-white py-2 px-6 rounded-md hover:text-black hover:bg-gray-100"
                   >
                     Intrested
@@ -180,7 +180,7 @@ const Newhomes = () => {
             </span>
              <button className=" mt-4">
                   <a
-                    href="/"
+                    href="https://wa.link/c4pgr9"
                     className="
                     
                     bg-black text-white py-2 px-12
@@ -222,4 +222,4 @@ const Newhomes = () => {
   );
 };
 
-export default Newhomes;
+export default Newlands;

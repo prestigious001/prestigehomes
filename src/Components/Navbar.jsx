@@ -71,14 +71,14 @@ export default function Navbar() {
 
           <div class="hidden lg:flex space-x-4">
             <a
-              href="/"
+              href="https://wa.link/c4pgr9"
               class=" font-semibold px-4 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
             >
               <button class=""> CHAT NOW</button>
             </a>
             
             <a
-              href="/"
+              href="https://wa.link/vpgifv"
               class=" font-semibold bg-black px-4 py-2 text-white rounded-md hover:bg-gray-200 hover:text-black"
             >
               <button class="">INSPECT NOW</button>
@@ -101,21 +101,24 @@ export default function Navbar() {
               </li>
             </NavLink>
 
-            <NavLink to="/services">
-              <li class="text-gray-400 font-mono font-semibold tracking-wider hover:text-gray-500">
-                SERVICES
-              </li>
-            </NavLink>
+
             <NavLink to="/contact">
               <li class="text-gray-400 font-mono font-semibold tracking-wider hover:text-gray-500">
                 CONTACT
               </li>
             </NavLink>
+
+            <NavLink to="/services">
+              <li class="text-gray-400 font-mono font-semibold tracking-wider hover:text-gray-500">
+                SERVICES
+              </li>
+            </NavLink>
+           
           </ul>
         </div>
       </nav>
 
-      <div class="flex justify-center mt-4 mb-4 lg:hidden space-x-4">
+      {/* <div class="flex justify-center mt-4 mb-4 lg:hidden space-x-4">
         <a
           href="/"
           class=" px-4 py-1 border-gray-400 border-2 rounded-md hover:bg-gray-200"
@@ -128,7 +131,7 @@ export default function Navbar() {
         >
           <button class="">INSPECT NOW</button>
         </a>
-      </div>
+      </div> */}
 
       <hr />
     </>

@@ -16,7 +16,7 @@ export default function Contact() {
           {/* Contact Form */}
           <div className="bg-white shadow-lg p-6 rounded-lg">
             <h2 className="text-2xl font-semibold text-gray-800 mb-6">Send us a message</h2>
-            <form action="/contact">
+            <form action="/contact" >
               <div className="mb-4">
                 <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
                   Full Name
@@ -56,12 +56,17 @@ export default function Contact() {
                   placeholder="Your Message"
                 ></textarea>
               </div>
+              <a href="https://wa.link/vpgifv">
               <button
                 type="submit"
                 className="w-full bg-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-gray-700 transition"
               >
+                
+
                 Send Message
               </button>
+              </a>
+
             </form>
           </div>
 
@@ -73,11 +78,11 @@ export default function Contact() {
             </p>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Office Address:</h3>
-              <p className="text-gray-600">No 23, Suite 456, Jos City,Plateau State</p>
+              <p className="text-gray-600">No 23, Suite 456 Ajibola Plaza, Ogun State Nigeria.</p>
             </div>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Phone Number:</h3>
-              <p className="text-gray-600">+1 (234) 567-8901</p>
+              <p className="text-gray-600">+ 234 (0) 818-700-8592</p>
             </div>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Email:</h3>

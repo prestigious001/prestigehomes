@@ -14,13 +14,13 @@ export default function Home() {
 
       <div class="mt-6 flex justify-center space-x-4  md:space-x-12">
         <a
-          href="/"
+          href="https://wa.link/c4pgr9"
           class=" font-semibold px-4 md:px-36 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
         >
           <button class="">CHAT NOW</button>
         </a>
         <a
-          href="/"
+          href="https://wa.link/vpgifv"
           class=" bg-black font-semibold px-4 md:px-36 py-2 text-white rounded-md hover:bg-gray-200 hover:text-black"
         >
           <button class="">INSPECT NOW</button>
@@ -68,13 +68,13 @@ export default function Home() {
 
       <div class="mt-6 flex justify-center space-x-4  md:space-x-12">
         <a
-          href="/"
+          href="https://wa.link/c4pgr9"
           class="font-mono font-semibold px-4 md:px-36 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
         >
           <button class="">CHAT NOW</button>
         </a>
         <a
-          href="/"
+          href="https://wa.link/vpgifv"
           class=" bg-black font-semibold px-4 md:px-36 py-2 text-white rounded-md hover:bg-gray-200 hover:text-black"
         >
           <button class="">INSPECT NOW</button>

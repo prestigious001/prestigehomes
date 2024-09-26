@@ -9,7 +9,7 @@ export default function About() {
         <div className="text-center">
           <h1 className="text-4xl  font-bold text-gray-800 mb-4">ABOUT US</h1>
           <p className="text-lg text-gray-600 mb-8">
-            Welcome to <span className="font-semibold  text-black">Prestige Property</span>, where we help you find your dream home, land, or rental property with ease.
+            Welcome to <span className="font-semibold  text-black">Prestige Property</span>, where we help you find your dream house, land, or rental property with ease.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -43,7 +43,7 @@ export default function About() {
             Whether you're looking to buy, sell, or rent, we are here to assist you every step of the way.
           </p>
           <a
-            href="/contact"
+            href="https://wa.link/vpgifv"
             className="inline-block bg-black text-white font-semibold py-2 px-6 rounded hover:bg-gray-600 transition"
           >
             Contact Us

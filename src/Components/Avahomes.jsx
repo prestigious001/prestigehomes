@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Listinghomes from "./Listinghomes";
+// import itemss from "./itemss";
 import { FaDoorOpen, FaKey, FaLightbulb, FaRoad } from "react-icons/fa";
 import { FaBoreHole} from "react-icons/fa6";
+// import App from "./Comedata";
 
 const Newhomes = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -63,7 +65,7 @@ const Newhomes = () => {
               />
               <div className="px-2 py-3">
                 <div className="font-bold text-xl">{home.location}</div>
-                <p className="text-gray-500 text-base">{home.description}</p>
+                <p className="text-gray-500 text-base ">{home.description}</p>
               </div>
               <div class="px-2  pb-2 flex flex-wrap gap-2">
                 <span
@@ -148,7 +150,7 @@ const Newhomes = () => {
               >
                 <button className="lg:mt-2 ">
                   <a
-                    href="/"
+                    href="https://wa.link/c4pgr9"
                     className="border-2 text-black py-2 px-6 rounded-md lg:mt-8 hover:bg-gray-100 lg:mr-4"
                   >
                     Know more
@@ -157,7 +159,7 @@ const Newhomes = () => {
 
                 <button className=" ">
                   <a
-                    href="/"
+                    href="https://wa.link/vpgifv"
                     className="bg-black text-white py-2 px-6 rounded-md hover:text-black hover:bg-gray-100"
                   >
                     Intrested
@@ -176,7 +178,7 @@ const Newhomes = () => {
             </span>
             <button className=" mt-4">
               <a
-                href="/"
+                href="https://wa.link/c4pgr9"
                 className="
                     
                     bg-black text-white py-2 px-12
@@ -223,6 +225,10 @@ const Newhomes = () => {
           </button>
         </div>
       )}
+
+      {/* <itemss /> */}
+
+      
     </div>
   );
 };

@@ -68,7 +68,7 @@ export default function Serivices() {
           Get in touch with us today and let’s turn your real estate dreams into reality.
         </p>
         <a
-          href="/contact"
+          href="https://wa.link/vpgifv"
           className="inline-block bg-black text-white font-semibold py-2 px-6 rounded hover:bg-gray-600 transition"
         >
           Contact Us

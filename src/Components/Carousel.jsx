@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import inn from '../Assets/inn.jpg'
 import man from '../Assets/man.png'
 // import out from '../Assets/ouy.jpg'
-import lan from '../Assets/lan1.png'
+import land from '../Assets/land.png'
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,7 +18,7 @@ const Carousel = () => {
       
     },
     { 
-      image: lan, 
+      image: land, 
       description: 'Get Legitimate Lands & Documents',
       
     },

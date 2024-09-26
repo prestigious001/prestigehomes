@@ -14,21 +14,29 @@ export default function Home() {
 
       <div class="mt-6 flex justify-center space-x-4  md:space-x-12">
         <a
-          href="https://wa.link/c4pgr9"
-          class=" font-semibold px-4 md:px-36 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
+          href="https://wa.link/q28ste"
+          class=" font-semibold px-4 md:px-36 py-2
+           border-gray-400 border-2 rounded-md
+            hover:bg-gray-200
+            animate__heartBeat 
+            "
         >
           <button class="">CHAT NOW</button>
         </a>
         <a
           href="https://wa.link/vpgifv"
-          class=" bg-black font-semibold px-4 md:px-36 py-2 text-white rounded-md hover:bg-gray-200 hover:text-black"
+          class=" bg-black font-semibold px-4 md:px-36 py-2
+           text-white rounded-md hover:bg-gray-200
+            hover:text-black
+            animate__heartBeat
+            "
         >
           <button class="">INSPECT NOW</button>
         </a>
       </div>
 
-      <div className="home-tag mt-8 md:mt-16">
-        <h1 class="text-center  ">AVAILABLE PROPERTIES</h1>
+      <div className="home-tag mt-8 md:mt-16  ">
+        <h1 class="text-center   animate__animated animate__bounce ">AVAILABLE PROPERTIES</h1>
         <h1 class="text-center font-mono font-bold md:text-3xl mb-6 ">
           {" "}
           | HOMES | LOCATION | SPECS |
@@ -38,7 +46,7 @@ export default function Home() {
       <Avahomes />
 
       <div className="home-tag mt-8 md:mt-16">
-        <h1 class="text-center font-mono ">AVAILABLE PROPERTIES</h1>
+        <h1 class="text-center font-mono  animate__animated animate__bounce ">AVAILABLE PROPERTIES</h1>
         <h1 class="text-center  font-bold md:text-3xl mb-6 ">
           {" "}
           | LANDS | LOCATION | SPECS |
@@ -68,7 +76,7 @@ export default function Home() {
 
       <div class="mt-6 flex justify-center space-x-4  md:space-x-12">
         <a
-          href="https://wa.link/c4pgr9"
+          href="https://wa.link/q28ste"
           class="font-mono font-semibold px-4 md:px-36 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
         >
           <button class="">CHAT NOW</button>

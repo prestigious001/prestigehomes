@@ -71,7 +71,7 @@ export default function Navbar() {
 
           <div class="hidden lg:flex space-x-4">
             <a
-              href="https://wa.link/c4pgr9"
+              href="https://wa.link/q28ste"
               class=" font-semibold px-4 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
             >
               <button class=""> CHAT NOW</button>

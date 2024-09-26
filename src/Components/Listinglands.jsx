@@ -1,56 +1,56 @@
-import inn from '../Assets/inn.jpg'
-import man from '../Assets/man.png'
-import lan from '../Assets/lan1.png'
+import land from '../Assets/land.png'
+import land1 from '../Assets/land1.png'
+// import lan from '../Assets/lan1.png'
 
 
  const Listinghomes = [
     { 
       id:1,
-      image: inn, 
-      location:'Two Bed room | Gurratop rayfield | 800K',
-      description: 'Welcome to Prestige Homes',
-      paper: 'C of O',
+      image: land, 
+      location:'Eleven (11) Plots of Land | Idimu ota | N800K/plot',
+      description: 'This Land is currently at promo price grap a plot now all did on works done',
+      paper: 'S o S',
       env: 'commercial',
       // water: 'borehole',
-      road: 'Close to the main road',
+      road: 'close to the main road',
       // state: 'SOLD OUT'
       
     },
     { 
       // doc: 'Document',
       id:2,
-      image: man, 
-      description: 'Own or Rent a Home with Ease',
-      location:'Two Bed room |Ran rayfield',
-      paper: 'C of O',
-      env: 'commercial',
+      image: land1, 
+      description: 'This Property has an uncompleted 2 bed room with  extra land',
+      location:'5 Plots and an Uncompleted Building | Ebimikolo road | N12M',
+      paper: 'C of D',
+      env: 'Residencial',
       // water: 'borehole',
-      road: 'Close to the main road',
+      road: 'good road',
       // state: 'SOLD OUT'
       
     },
     { 
       id:3,
-      image: lan, 
-      description: 'Get Legitimate Lands & Documents',
-      location:'Two Bed room |  rayfield',
+      image: land, 
+      description: 'This one plot is beside the teaching hospital and has development arround',
+      location:'One (1) Plot  | Gbajumo road | N2.5M',
       paper: 'C of O',
       env: 'residential',
       // water: 'borehole',
-      road: 'Close to the main road',
+      road: 'directly the main road',
       // state: 'SOLD OUT'
       
     },
 
     { 
       id:4,
-      image: lan, 
-      description: 'Get Legitimate Lands & Documents',
-      location:'Two Bed room |  rayfield',
-      paper: 'C of O',
+      image: land1, 
+      description: 'Urgent ! grap this at distress price all documents available',
+      location:'2 acres | Hanubi road | N300K/plot',
+      paper: 'ApT',
       env: 'commercial',
       // water: 'borehole',
-      road: 'Out scket the town',
+      road: 'along the main road',
       state: 'DISTRESS SALE'
       
 
@@ -58,16 +58,14 @@ import lan from '../Assets/lan1.png'
 
     { 
       id:5,
-      image: lan, 
+      image: land, 
       description: 'Get Legitimate Lands & Documents',
-      location:'Two Bed room |  rayfield',
-      paper: 'C of O',
-      env: 'commercial',
+      location:'Two (2) Plots | kaliku estate | N2M/plot',
+      paper: 'G OO',
+      env: 'residencial',
       // water: 'borehole',
-      road: 'Close to the main road',
+      road: 'close to the main road',
       // state: 'SOLD OUT'
-      
-
     },
   ];
 

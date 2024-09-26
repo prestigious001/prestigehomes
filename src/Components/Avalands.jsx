@@ -180,7 +180,7 @@ const Newlands = () => {
             </span>
              <button className=" mt-4">
                   <a
-                    href="https://wa.link/c4pgr9"
+                    href="https://wa.link/q28ste"
                     className="
                     
                     bg-black text-white py-2 px-12

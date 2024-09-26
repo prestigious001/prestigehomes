@@ -16,7 +16,7 @@ export default function Contact() {
           {/* Contact Form */}
           <div className="bg-white shadow-lg p-6 rounded-lg">
             <h2 className="text-2xl font-semibold text-gray-800 mb-6">Send us a message</h2>
-            <form action="/contact" >
+            <form action="" >
               <div className="mb-4">
                 <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
                   Full Name

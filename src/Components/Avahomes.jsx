@@ -51,11 +51,13 @@ const Newhomes = () => {
         />
       </div>
 
-      <div className="homes px-3 md:grid grid-cols-4 gap-4">
+      <div className="homes px-3 md:grid grid-cols-4 gap-4 ">
         {paginatedData.length > 0 ? (
           paginatedData.map((home) => (
             <div
-              className="max-w-sm rounded overflow-hidden shadow-lg bg-white  mt-8"
+              className="max-w-sm rounded overflow-hidden shadow-lg bg-white  mt-8
+              
+              "
               key={home.id}
             >
               <img
@@ -150,7 +152,7 @@ const Newhomes = () => {
               >
                 <button className="lg:mt-2 ">
                   <a
-                    href="https://wa.link/c4pgr9"
+                    href="https://wa.link/q28ste"
                     className="border-2 text-black py-2 px-6 rounded-md lg:mt-8 hover:bg-gray-100 lg:mr-4"
                   >
                     Know more

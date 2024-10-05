@@ -1,5 +1,6 @@
 import React from "react";
 import ImageCarousel from "../Components/Carousel";
+// import show from "../Components/Popup";
 import Avahomes from "../Components/Avahomes";
 import Avalands from "../Components/Avalands";
 import Footer from "../Components/Footer";
@@ -9,6 +10,7 @@ export default function Home() {
   return (
     <div>
       <ImageCarousel />
+      
 
       {/* <Newhomes /> */}
 

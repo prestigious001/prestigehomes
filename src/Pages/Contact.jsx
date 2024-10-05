@@ -83,7 +83,7 @@ export default function Contact() {
             </p>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Office Address:</h3>
-              <p className="text-gray-600">No 23, Suite 456 Ajibola Plaza, Ogun State Nigeria.</p>
+              <p className="text-gray-600">Terminus</p>
             </div>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Phone Number:</h3>
@@ -92,7 +92,7 @@ export default function Contact() {
             </div>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Email:</h3>
-              <p className="text-gray-600"> prestigeproperty@gmail.com</p>
+              <p className="text-gray-600"> propertiesprestige78@gmail.com</p>
             </div>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Working Hours:</h3>

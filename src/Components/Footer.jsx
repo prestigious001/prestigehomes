@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="email ">
           <p className=" flex justify-center font-semibold ">
             <span className=" "><FaEnvelope className="mt-2 mr-2"/> </span>
-               prestigeproperty@gmail.com
+               propertiesprestige78@gmail.com
           </p>
         </div>
 

@@ -3,10 +3,11 @@ import 'animate.css/animate.min.css';
 import './App.css';
 import Home from './Pages/Home';
 import Navbar from './Components/Navbar';
-// import Navbar from './Components/Popup';
+import show from './Components/Popup';
 import About from './Pages/About';
 import Serivices from './Pages/Serivices';
 import Contact from './Pages/Contact';
+import AutomaticPopup from './Components/Popup';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         {/* <div className="min-h-screen bg-gray-100 flex items-center justify-center">
           <h1 className="text-3xl font-bold text-blue-600">Hello, TailwindCSS!</h1>
         </div> */}
-
+      
         <Router>
           <Navbar />
           
@@ -26,6 +27,7 @@ function App() {
             <Route path="/services" element={<Serivices />} />         
             <Route path="/contact" element={<Contact/>} />         
           </Routes>
+          <AutomaticPopup/>
         </Router>
     </div>
   );

@@ -117,22 +117,6 @@ export default function Navbar() {
           </ul>
         </div>
       </nav>
-
-      {/* <div class="flex justify-center mt-4 mb-4 lg:hidden space-x-4">
-        <a
-          href="/"
-          class=" px-4 py-1 border-gray-400 border-2 rounded-md hover:bg-gray-200"
-        >
-          <button class="">CALL NOW</button>
-        </a>
-        <a
-          href="/"
-          class=" bg-black px-4 py-1 text-white rounded-md hover:bg-gray-200 hover:text-black"
-        >
-          <button class="">INSPECT NOW</button>
-        </a>
-      </div> */}
-
       <hr />
     </>
   );
